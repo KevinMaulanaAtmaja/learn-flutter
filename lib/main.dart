@@ -1,4 +1,5 @@
 import 'package:bljar_flutter/col_row.dart';
+import 'package:bljar_flutter/container.dart';
 import 'package:bljar_flutter/main_page.dart';
 import 'package:flutter/material.dart';
 
@@ -13,7 +14,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       // home: MainPage(),
-      home: ColRow(),
+      // home: ColRow(),
+      home: Containers(),
     );
   }
 }
