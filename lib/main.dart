@@ -1,6 +1,7 @@
-import 'package:bljar_flutter/col_row.dart';
-import 'package:bljar_flutter/container.dart';
-import 'package:bljar_flutter/main_page.dart';
+import 'package:bljar_flutter/04_box_decoration.dart';
+import 'package:bljar_flutter/02_col_row.dart';
+import 'package:bljar_flutter/03_container.dart';
+import 'package:bljar_flutter/01_main_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +16,8 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       // home: MainPage(),
       // home: ColRow(),
-      home: Containers(),
+      // home: Containers(),
+      home: BoxDeco(),
     );
   }
 }
