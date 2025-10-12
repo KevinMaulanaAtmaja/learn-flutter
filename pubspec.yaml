@@ -30,6 +30,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  google_fonts: ^6.3.2
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -87,3 +88,15 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+  fonts:
+  - family: ComicNue
+    fonts:
+      - asset: fonts/ComicNeue-Regular.ttf
+      - asset: fonts/ComicNeue-Bold.ttf
+        weight: 700
+      - asset: fonts/ComicNeue-Italic.ttf
+        style: italic
+      - asset: fonts/ComicNeue-BoldItalic.ttf
+        weight: 700
+        style: italic
