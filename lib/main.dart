@@ -7,6 +7,7 @@
 // import 'package:bljar_flutter/07_font_type.dart';
 // import 'package:bljar_flutter/08_stateles_stateful.dart';
 import 'package:bljar_flutter/09_stack.dart';
+import 'package:bljar_flutter/10_wrap.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -27,7 +28,8 @@ class MyApp extends StatelessWidget {
       // home: Texts(),
       // home: FontTypes(),
       // home: SFul(),
-      home: Stacks(),
+      // home: Stacks(),
+      home: Wraps(),
     );
   }
 }
