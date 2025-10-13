@@ -1,3 +1,4 @@
+import 'dart:developer';
 import 'package:flutter/material.dart';
 
 class SLess extends StatelessWidget {
@@ -37,6 +38,7 @@ class _SFulState extends State<SFul> {
               onPressed: () {
                 setState(() {
                   number++;
+                  log("$number");
                 });
               },
               child: Text("Tambah"),
