@@ -5,6 +5,7 @@
 // import 'package:bljar_flutter/05_sized_box.dart';
 // import 'package:bljar_flutter/06_text.dart';
 import 'package:bljar_flutter/07_font_type.dart';
+import 'package:bljar_flutter/08_stateles_stateful.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -23,7 +24,8 @@ class MyApp extends StatelessWidget {
       // home: BoxDeco(),
       // home: SizedBoxs(),
       // home: Texts(),
-      home: FontTypes(),
+      // home: FontTypes(),
+      home: SFul(),
     );
   }
 }
