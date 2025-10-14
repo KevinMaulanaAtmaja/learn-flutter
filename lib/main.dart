@@ -9,6 +9,7 @@
 import 'package:bljar_flutter/09_stack.dart';
 import 'package:bljar_flutter/10_wrap.dart';
 import 'package:bljar_flutter/11_align.dart';
+import 'package:bljar_flutter/12_paddings.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -31,7 +32,8 @@ class MyApp extends StatelessWidget {
       // home: SFul(),
       // home: Stacks(),
       // home: Wraps(),
-      home: Aligns(),
+      // home: Aligns(),
+      home: Paddings(),
     );
   }
 }
