@@ -11,7 +11,8 @@
 // import 'package:bljar_flutter/11_align.dart';
 // import 'package:bljar_flutter/12_paddings.dart';
 // import 'package:bljar_flutter/13_icons_mdi.dart';
-import 'package:bljar_flutter/14_text_field.dart';
+// import 'package:bljar_flutter/14_text_field.dart';
+import 'package:bljar_flutter/15_input_deco.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -37,7 +38,8 @@ class MyApp extends StatelessWidget {
       // home: Aligns(),
       // home: Paddings(),
       // home: IconAndMdiIcon(),
-      home: TextFields(),
+      // home: TextFields(),
+      home: InputDeco(),
     );
   }
 }
