@@ -6,10 +6,11 @@
 // import 'package:bljar_flutter/06_text.dart';
 // import 'package:bljar_flutter/07_font_type.dart';
 // import 'package:bljar_flutter/08_stateles_stateful.dart';
-import 'package:bljar_flutter/09_stack.dart';
-import 'package:bljar_flutter/10_wrap.dart';
-import 'package:bljar_flutter/11_align.dart';
-import 'package:bljar_flutter/12_paddings.dart';
+// import 'package:bljar_flutter/09_stack.dart';
+// import 'package:bljar_flutter/10_wrap.dart';
+// import 'package:bljar_flutter/11_align.dart';
+// import 'package:bljar_flutter/12_paddings.dart';
+import 'package:bljar_flutter/13_icons_mdi.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -33,7 +34,8 @@ class MyApp extends StatelessWidget {
       // home: Stacks(),
       // home: Wraps(),
       // home: Aligns(),
-      home: Paddings(),
+      // home: Paddings(),
+      home: IconAndMdiIcon(),
     );
   }
 }
