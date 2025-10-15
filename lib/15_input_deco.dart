@@ -119,6 +119,51 @@ class _InputDecoState extends State<InputDeco> {
                   filled: true,
                 ),
               ),
+              TextField(
+                decoration: InputDecoration(
+                  label: Text("Gap Padding"),
+                  floatingLabelBehavior: FloatingLabelBehavior.always,
+                  // enabledBorder: InputBorder.none,
+                  // enabledBorder: UnderlineInputBorder(
+                  //   borderSide: BorderSide(color: Colors.lime, width: 2),
+                  //   borderRadius: BorderRadius.circular(10),
+                  // ),
+                  enabledBorder: OutlineInputBorder(
+                    borderSide: BorderSide(color: Colors.lime, width: 2),
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    gapPadding: 20,
+                    borderSide: BorderSide(color: Colors.green, width: 2),
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                ),
+              ),
+              TextField(
+                decoration: InputDecoration(
+                  enabled: false,
+                  disabledBorder: OutlineInputBorder(
+                    borderSide: BorderSide(color: Colors.indigo, width: 2),
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                ),
+              ),
+              TextField(
+                decoration: InputDecoration(
+                  errorText: "Error",
+                  errorBorder: OutlineInputBorder(
+                    borderSide: BorderSide(
+                      color: Colors.pink.shade200,
+                      width: 2,
+                    ),
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  focusedErrorBorder: OutlineInputBorder(
+                    borderSide: BorderSide(color: Colors.red, width: 2),
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                ),
+              ),
             ],
           ),
         ),
