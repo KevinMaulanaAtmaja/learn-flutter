@@ -82,6 +82,43 @@ class _InputDecoState extends State<InputDeco> {
                   ),
                 ),
               ),
+              TextField(
+                decoration: InputDecoration(
+                  // icon: Icon(Icons.person, color: Colors.blue.shade400),
+                  // iconColor: Colors.blue.shade100,
+                  icon: Container(
+                    width: 20,
+                    height: 20,
+                    color: Colors.blue.shade900,
+                  ),
+                  // prefixText: 'PREFFIX',
+                  // prefixStyle: TextStyle(color: Colors.blue.shade300),
+                  prefixIcon: Icon(Icons.person),
+                  prefixIconColor: Colors.blue.shade400,
+                  prefix: Container(
+                    color: Colors.blue.shade100,
+                    padding: EdgeInsets.all(3),
+                    child: Text(
+                      "Prefix",
+                      style: TextStyle(color: Colors.blue.shade900),
+                    ),
+                  ),
+                  // suffixText: 'SUFFIX',
+                  // suffixStyle: TextStyle(color: Colors.green.shade300),
+                  suffixIcon: Icon(Icons.coffee),
+                  suffixIconColor: Colors.green,
+                  suffix: Container(
+                    color: Colors.green.shade100,
+                    padding: EdgeInsets.all(3),
+                    child: Text(
+                      "Suffix",
+                      style: TextStyle(color: Colors.green.shade900),
+                    ),
+                  ),
+                  fillColor: Colors.grey.shade200,
+                  filled: true,
+                ),
+              ),
             ],
           ),
         ),
