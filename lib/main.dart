@@ -15,7 +15,8 @@
 // import 'package:bljar_flutter/15_input_deco.dart';
 // import 'package:bljar_flutter/16_single_list.dart';
 // import 'package:bljar_flutter/17_page_view.dart';
-import 'package:bljar_flutter/18_dropdown.dart';
+// import 'package:bljar_flutter/18_dropdown.dart';
+import 'package:bljar_flutter/19_gesture_detector.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -45,7 +46,8 @@ class MyApp extends StatelessWidget {
       // home: InputDeco(),
       // home: SingleList(),
       // home: PageViews(),
-      home: Dropdowns(),
+      // home: Dropdowns(),
+      home: GestureDetectors(),
     );
   }
 }
