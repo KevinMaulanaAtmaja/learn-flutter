@@ -22,7 +22,7 @@ class _PageViewsState extends State<PageViews> {
         children: [
           PageView.builder(
             controller: pageController,
-            itemCount: 3,
+            itemCount: 30,
             itemBuilder: (BuildContext context, int index) => Center(
               child: Text(
                 "Page ${index + 1}",

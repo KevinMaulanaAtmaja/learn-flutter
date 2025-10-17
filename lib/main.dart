@@ -14,7 +14,8 @@
 // import 'package:bljar_flutter/14_text_field.dart';
 // import 'package:bljar_flutter/15_input_deco.dart';
 // import 'package:bljar_flutter/16_single_list.dart';
-import 'package:bljar_flutter/17_page_view.dart';
+// import 'package:bljar_flutter/17_page_view.dart';
+import 'package:bljar_flutter/18_dropdown.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -43,7 +44,8 @@ class MyApp extends StatelessWidget {
       // home: TextFields(),
       // home: InputDeco(),
       // home: SingleList(),
-      home: PageViews(),
+      // home: PageViews(),
+      home: Dropdowns(),
     );
   }
 }
