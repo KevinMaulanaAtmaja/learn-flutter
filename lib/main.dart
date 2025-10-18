@@ -17,10 +17,18 @@
 // import 'package:bljar_flutter/17_page_view.dart';
 // import 'package:bljar_flutter/18_dropdown.dart';
 // import 'package:bljar_flutter/19_gesture_detector.dart';
-import 'package:bljar_flutter/20_first_page.dart';
+// import 'package:bljar_flutter/20_first_page.dart';
+import 'package:bljar_flutter/22_about_dialog.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 void main() {
+  LicenseRegistry.addLicense(() async* {
+    yield const LicenseEntryWithLineBreaks(<String>['my_package'], '''
+    License.text
+    ''');
+  });
+
   runApp(const MyApp());
 }
 
@@ -49,7 +57,8 @@ class MyApp extends StatelessWidget {
       // home: PageViews(),
       // home: Dropdowns(),
       // home: GestureDetectors(),
-      home: FirstPage(),
+      // home: FirstPage(),
+      home: AboutDialogs(),
     );
   }
 }
