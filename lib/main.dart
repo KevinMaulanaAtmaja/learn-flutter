@@ -20,7 +20,8 @@
 // import 'package:bljar_flutter/20_first_page.dart';
 // import 'package:bljar_flutter/22_about_dialog.dart';
 // import 'package:flutter/foundation.dart';
-import 'package:bljar_flutter/23_alert_dialog.dart';
+// import 'package:bljar_flutter/23_alert_dialog.dart';
+import 'package:bljar_flutter/24_simple_dialog.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -60,7 +61,8 @@ class MyApp extends StatelessWidget {
       // home: GestureDetectors(),
       // home: FirstPage(),
       // home: AboutDialogs(),
-      home: AlertDialogs(),
+      // home: AlertDialogs(),
+      home: SimpleDialogs(),
     );
   }
 }

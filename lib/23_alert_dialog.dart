@@ -13,7 +13,7 @@ class _AlertDialogsState extends State<AlertDialogs> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("About Dialogs")),
+      appBar: AppBar(title: const Text("Alert Dialog")),
       body: Center(
         child: SizedBox(
           width: 200,

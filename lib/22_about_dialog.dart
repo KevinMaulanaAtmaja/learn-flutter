@@ -11,7 +11,7 @@ class _AboutDialogsState extends State<AboutDialogs> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("About Dialogs")),
+      appBar: AppBar(title: const Text("About Dialog")),
       body: Center(
         child: SizedBox(
           width: 200,
