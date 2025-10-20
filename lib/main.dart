@@ -22,7 +22,8 @@
 // import 'package:flutter/foundation.dart';
 // import 'package:bljar_flutter/23_alert_dialog.dart';
 // import 'package:bljar_flutter/24_simple_dialog.dart';
-import 'package:bljar_flutter/25_image_picker.dart';
+// import 'package:bljar_flutter/25_image_picker.dart';
+import 'package:bljar_flutter/26_date_time_picker.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -64,7 +65,8 @@ class MyApp extends StatelessWidget {
       // home: AboutDialogs(),
       // home: AlertDialogs(),
       // home: SimpleDialogs(),
-      home: ImagePickers(),
+      // home: ImagePickers(),
+      home: DateTimePickers(),
     );
   }
 }
