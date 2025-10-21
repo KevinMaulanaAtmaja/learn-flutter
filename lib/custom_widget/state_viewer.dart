@@ -3,21 +3,38 @@ import 'package:bljar_flutter/custom_widget/states.dart';
 import 'package:flutter/material.dart';
 
 class StateViewer extends StatefulWidget {
-  const StateViewer({super.key});
+  final void Function(States state)? onStateChanged;
+  final States initialState;
+
+  const StateViewer({super.key, this.onStateChanged, required this.initialState});
 
   @override
   State<StateViewer> createState() => _StateViewerState();
 }
 
 class _StateViewerState extends State<StateViewer> {
-  States _state = States.safe;
+  // States _state = States.safe;
+  late States _state;
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+
+    _state = widget.initialState;
+  }
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () => setState(() {
-        _state = States.values[(_state.index + 1) % States.values.length];
-      }),
+      onTap: () {
+        setState(() {
+          _state = States.values[(_state.index + 1) % States.values.length];
+        });
+        if(widget.onStateChanged != null){
+          widget.onStateChanged!(_state);
+        }
+      },
       child: UnconstrainedBox(
         child: Container(
           padding: EdgeInsets.all(10),
