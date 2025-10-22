@@ -27,6 +27,7 @@
 // import 'package:bljar_flutter/custom_widget/custom_widget.dart';
 // import 'package:bljar_flutter/27_safe_area_media_query.dart';
 import 'package:bljar_flutter/28_future_builder.dart';
+import 'package:bljar_flutter/29_stream_builder.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -72,7 +73,8 @@ class MyApp extends StatelessWidget {
       // home: DateTimePickers(),
       // home: CustomWidget(),
       // home: SafeAreaMediaQuery(),
-      home: FutureBuilders(),
+      // home: FutureBuilders(),
+      home: StreamBuilders(),
     );
   }
 }
