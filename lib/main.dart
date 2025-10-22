@@ -25,7 +25,8 @@
 // import 'package:bljar_flutter/25_image_picker.dart';
 // import 'package:bljar_flutter/26_date_time_picker.dart';
 // import 'package:bljar_flutter/custom_widget/custom_widget.dart';
-import 'package:bljar_flutter/27_safe_area_media_query.dart';
+// import 'package:bljar_flutter/27_safe_area_media_query.dart';
+import 'package:bljar_flutter/28_future_builder.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -70,7 +71,8 @@ class MyApp extends StatelessWidget {
       // home: ImagePickers(),
       // home: DateTimePickers(),
       // home: CustomWidget(),
-      home: SafeAreaMediaQuery(),
+      // home: SafeAreaMediaQuery(),
+      home: FutureBuilders(),
     );
   }
 }
